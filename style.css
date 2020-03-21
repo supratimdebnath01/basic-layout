@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+body{
+   font-family: Helvetica Neue, Arial;  
+    font-size: 12px;
+}
+
+h1,h2{
+   color: #6fd00f;     
+}
+
+h1{ 
+    font-size: 40px;   
+    margin-bottom: 18px;
+
+    
+}
+
+h2{
+     font-size: 25px;
+    margin-bottom: 12px;
+   
+}
+
+
+.main-text{
+text-align: justify;
+    margin-bottom: 20px;
+    
+}
+
+.malik-text{
+    font-size: 15px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 10px;
+    
+}
+.container {
+    width: 1140px; 
+    margin: 20px auto 20px auto;
+}
+
+.Blog-post {
+    width: 75%;
+    float:left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.Other-post {
+    width : 25%;
+    float:left;
+}
+
+.author-malik {
+    padding-top: 30px;
+    border-top: 3px solid #7c3131;
+    margin-top: 20px;
+    
+}
+
+.other {
+    margin-bottom: 30px;
+}
+
+
+.author-malik img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+
+.Blog-post img{
+    height: 150px;
+    width: auto; 
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+        
+}
